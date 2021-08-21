@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+
+body{
+    background-color: #fafafa;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
+}
+
+a, p{
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    max-width: 550px;
+    margin: auto;
+    -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.task-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aliceblue;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.task-title{
+    display: flex;
+}
+
+.task-title a{
+    text-decoration: none;
+    color: #0083B0;
+    margin-left: 10px;
+}
+
+.task-complete-icon{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(15, 182, 0);
+    border-radius: 50%;
+}
+
+.task-incomplete-icon{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(248, 31, 103);
+    border-radius: 50%;
+}
+
+.delete-link{
+    text-decoration: none;
+    font-weight: 900;
+    color: #0083B0;
+    font-size: 22px;
+    line-height: 0;
+}
+
+.search-form{
+    margin-top: 20px;
+    display: flex;
+}
+
+.search-add-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.add-link{
+    color: rgb(255, 51, 0);
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 1px 1px brown;
+    justify-content: center;
+    margin-top: 15px;
+}
+.add-link:hover
+{
+    color: #00a2ff;
+}
+
+input[type=text], input[type=password], textarea{
+    border: 1px solid #0083B0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+    display: block;
+}
+
+label{
+    padding-top: 10px !important;
+    display: block;
+}
+
+.card-body{
+    padding: 10px;
+    margin: auto;
+}
+
+.back-btn{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
